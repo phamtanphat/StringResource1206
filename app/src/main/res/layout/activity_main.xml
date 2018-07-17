@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/textviewtitle"
+       android:textColor="#f20"
+       android:textSize="40sp"
+       android:layout_centerHorizontal="true"
+       android:text="Dang nhap he thong"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Nhap user name"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/textviewtitle"
+        android:id="@+id/edittextTaikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhap password"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/edittextTaikhoan"
+        android:id="@+id/edittextMatkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Dang nhap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/edittextMatkhau"
+        android:id="@+id/buttonDangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
