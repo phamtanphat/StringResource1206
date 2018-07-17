@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StringResource1206</string>
+    <string name="text_title">Dang nhap he thong</string>
+    <string name="edit_hint_taikhoan">Nhap user name</string>
+    <string name="edit_hint_password">Nhap password</string>
+    <string name="button_dangnhap">Dang nhap</string>
 </resources>

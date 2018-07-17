@@ -12,12 +12,13 @@
        android:textColor="#f20"
        android:textSize="40sp"
        android:layout_centerHorizontal="true"
-       android:text="Dang nhap he thong"
+       android:text=""
        android:layout_width="wrap_content"
        android:layout_height="wrap_content" />
 
     <EditText
-        android:hint="Nhap user name"
+        android:inputType="text"
+        android:hint=""
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
@@ -26,7 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:hint="Nhap password"
+        android:inputType="textPassword"
+        android:hint=""
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
@@ -36,7 +38,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:text="Dang nhap"
+        android:text=""
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:layout_below="@id/edittextMatkhau"
